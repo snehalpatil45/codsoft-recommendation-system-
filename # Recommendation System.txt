@@ -1,0 +1,25 @@
+# Recommendation System
+
+AI model recommending movies using Content-Based Filtering and Collaborative Filtering.
+
+## Install
+Requires Python 3.8+:
+```sh
+pip install -r requirements.txt
+```
+
+## Usage
+1. Ensure `movies.csv` and `ratings.csv` are available.
+2. Run:
+```sh
+python recommendation.py
+```
+
+## Files
+- `recommendation.py` - Main script
+- `movies.csv` - Movie dataset
+- `ratings.csv` - Ratings dataset
+
+## License
+MIT
+
